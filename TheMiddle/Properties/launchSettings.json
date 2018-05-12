@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TheMiddle": {
+      "commandName": "Project",
+      "commandLineArgs": "-d:D:\\dump.txt -a:cmd.exe -- /T:1F"
+    }
+  }
+}
