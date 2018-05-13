@@ -62,14 +62,7 @@ namespace TheMiddle
         {
             if (args.Count == 0 || new[] {"?", "h", "help"}.Any(args.NamedArguments.ContainsKey))
             {
-                Console.WriteLine("TheMiddle");
-                Console.WriteLine("====================");
-                Console.WriteLine("A stdin/stdout/stderr interception utility,");
-                Console.WriteLine("brought to you by CXuesong.");
-                Console.WriteLine("--------------------");
-                Console.WriteLine("Usage:");
-                Console.WriteLine("middle -d:DumpFileName -a:ApplicationFileName -- Args1 Args2 Args3 ...");
-                Console.WriteLine();
+                Console.WriteLine(Prompts.HelpMessage);
                 return 0;
             }
             var dumpFileName = (string) args.Requires("d");
