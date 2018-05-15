@@ -1,9 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFrameworks>netcoreapp2.1</TargetFrameworks>
     <NeutralLanguage>en</NeutralLanguage>
+    <Authors>CXuesong</Authors>
+    <Company />
+    <Product>The Middle</Product>
+    <PackAsTool>True</PackAsTool>
+    <ToolCommandName>middle</ToolCommandName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>CXuesong.TheMiddle</PackageId>
+    <PackageProjectUrl>https://github.com/CXuesong/TheMiddle</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CXuesong/TheMiddle</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
